@@ -35,8 +35,3 @@ A Rasa-powered chatbot that provides weather updates based on user queries. This
 
 
 ---
-
-👨‍💻 Author
-Anubhav Choudhary
-
-LinkedIn: [LinkedIn](https://www.linkedin.com/in/anubhav-choudhary-35b8ab254/) | GitHub [GitHub](https://github.com/ANUBHAV0112)
