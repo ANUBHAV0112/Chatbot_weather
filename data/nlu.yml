@@ -1,0 +1,131 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_weather
+  examples: |
+      - how's the humidity today?
+      - is it going to be windy?
+      - what time will the sun set?
+      - what's the weather like today?
+      - tell me the forecast
+      - is it going to rain?
+      - how's the weather in Delhi?
+      - will it snow in New York?
+      - weather update for Mumbai please
+      - what's the temperature outside?
+      - how's the weather in [Delhi](location)?
+      - is it going to rain in [Mumbai](location)?
+      - what's the weather like in [New York](location)?
+      - tell me the forecast for [London](location)
+      - weather update for [Bangalore](location)
+      - will it snow in [Berlin](location)?
+      - how's the weather in [Himachal Pradesh](location)?
+      - what’s the weather in [Chandigarh](location)?
+      - is it raining in [Goa](location)?
+      - will it snow in [Manali](location)?
+
+
+- lookup: location
+  examples: |
+    - Delhi
+    - Mumbai
+    - New York
+    - London
+    - Bangalore
+    - Himachal Pradesh
+    - Berlin
+    - Chandigarh
+    - Manali
+    - Shimla
+    - Jaipur
+    - Pune
+    - Kolkata

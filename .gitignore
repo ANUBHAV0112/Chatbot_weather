@@ -1,0 +1,15 @@
+# Ignore Python virtual environments
+rasaenv/
+.venv/
+
+# Ignore Rasa caches and models
+.rasa/
+models/
+
+# Ignore common Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore VSCode settings if using it
+.vscode/
